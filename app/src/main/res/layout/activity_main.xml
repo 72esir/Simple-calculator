@@ -111,6 +111,7 @@
         <Button
             style="@style/NumButtonStyle"
             android:id="@+id/btn_point"
+            android:tag="point"
             android:text="." />
         <Button
             style="@style/OperandButtonStyle"

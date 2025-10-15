@@ -13,7 +13,7 @@
 
     <style name="OperandButtonStyle" parent="NumButtonStyle">
         <item name="android:backgroundTint">#f5a512</item>
-        <item name="android:tag">operand</item>
+        <item name="android:tag">operator</item>
     </style>
 
     <style name="GrayButtonStyle" parent="NumButtonStyle">
