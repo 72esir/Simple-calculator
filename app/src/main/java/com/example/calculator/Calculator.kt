@@ -4,7 +4,7 @@ class Calculator {
     fun calculate(expression: String): String {
         if (expression.isBlank()) return "0"
 
-        val regex = """(\d+(\.\d+)?|[+\-✕/])""".toRegex()
+        val regex = """(\d+(\.\d+)?|[+\-✕÷])""".toRegex()
         val tokens = regex.findAll(expression).map { it.value }.toMutableList()
 
         var i = 0
